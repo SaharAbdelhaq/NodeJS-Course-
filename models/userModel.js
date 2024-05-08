@@ -10,5 +10,5 @@ const userSchema = new Schema({
     type: String,
   },
 });
-
+//
 module.exports = mongoose.model("User", userSchema);
